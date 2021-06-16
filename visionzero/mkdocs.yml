@@ -10,7 +10,7 @@ nav:
     - Обратная связь (ТГ канал/чат): feedback.md
 
 theme:
-    name: mkdocs
+    name: gitbook
     locale: ru
     highlightjs: false
     nav_style: dark
