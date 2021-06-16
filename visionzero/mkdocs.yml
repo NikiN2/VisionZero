@@ -10,7 +10,7 @@ nav:
     - Обратная связь (ТГ канал/чат): feedback.md
 
 theme:
-    name: mkdocs
+    name: readthedocs
     highlightjs: true
     hljs_languages:
         - yaml
