@@ -10,4 +10,8 @@ nav:
     - Обратная связь (ТГ канал/чат): feedback.md
 
 theme:
-  name: gitbook
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
