@@ -138,3 +138,5 @@ _book
 *.mobi
 *.pdf
 
+/visionzero/site/search/
+/visionzero/site/
