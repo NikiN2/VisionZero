@@ -1,19 +1,14 @@
 site_name: Vision Zero
 site_url: https://nikin2.github.io/VisionZero/
 nav:
-    - Начало: index.md
+    #- Начало: index.md
     - Что такое Vision Zero: about.md
     - Типовые решения в инфраструктуре: typical_solutions.md
     - Ответы на частые вопросы по VisionZero: faq.md
-    - Мифы и заблуждения:   muth.md
+    - Мифы и заблуждения:   myth.md
     - Что добавить на сайт?: feedback.md
     - Обратная связь (ТГ канал/чат): feedback.md
 
 theme:
     name: material
-    locale: ru
-    highlightjs: false
-    nav_style: dark
-    hljs_languages:
-        - yaml
-        - rust
+
