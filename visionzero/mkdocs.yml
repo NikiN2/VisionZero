@@ -1,5 +1,5 @@
-site_name: Vision Zero
-site_url: https://nikin2.github.io/VisionZero/
+site_name: Ноль Смертей
+site_url: https://нольсмертей.рф/
 nav:
     - Что такое Vision Zero: index.md
     - Типовые решения в инфраструктуре: typical_solutions.md
