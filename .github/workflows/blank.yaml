@@ -24,12 +24,12 @@ jobs:
 #      run: git clone "https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io.git" --branch master --single-branch
     - name: Generate static pages
       run: mkdocs build
-    - name: Set git config and add changes
-      run: |
-          git config --global user.email "nikita@3093945.ru"
-          git config --global user.name "${GITHUB_ACTOR}"
-          git add --all
-      working-directory: ./site
+#    - name: Set git config and add changes
+#      run: |
+#          git config --global user.email "nikita@3093945.ru"
+#          git config --global user.name "${GITHUB_ACTOR}"
+#          git add --all
+#      working-directory: ./site
 
     - name: Deploy site to gh-pages branch
       uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
