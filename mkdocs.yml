@@ -11,3 +11,14 @@ nav:
 theme:
     name: material
 
+repo_name: NikiN2/VisionZero
+repo_url: https://github.com/NikiN2/VisionZero
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: "#"
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
