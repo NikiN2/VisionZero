@@ -1,5 +1,5 @@
 site_name: Ноль Смертей
-site_url: https://нольсмертей.рф/
+site_url: https://xn--e1aamffehtgn9h.xn--p1ai/
 
 theme:
   name: material
@@ -19,15 +19,6 @@ markdown_extensions:
   - pymdownx.superfences
 
 
-#nav:
-#    - 'Что такое Vision Zero' : 'index.md'
-#    - 'Типовые решения в инфраструктуре' : 'typical_solutions.md'
-#        - 'Тротуары'
-#        - 'Проезжая часть'
-#    - 'Ответы на частые вопросы по VisionZero' : 'faq.md'
-#    - 'Мифы и заблуждения' :   'myth.md'
-#    - 'Что добавить на сайт?' : 'feedback.md'
-#    - 'Обратная связь (ТГ канал/чат)' : 'feedback.md'
 
 nav:
   - 'Что такое Vision Zero' : 'index.md'
@@ -42,7 +33,7 @@ nav:
     - 'Общественный транспорт' : 'typical_solutions.md'
   - 'Ответы на частые вопросы по VisionZero': 'faq.md'
   - 'Мифы и заблуждения' :   'myth.md'
-  - 'Что добавить на сайт?' : 'feedback.md'
+  - 'Что добавить на сайт?' : 'CONTRIBUTING.md'
   - 'Обратная связь (ТГ канал/чат)' : 'feedback.md'
 
 google_analytics:
