@@ -30,11 +30,16 @@ jobs:
           git config --global user.name "${GITHUB_ACTOR}"
           git add --all
       working-directory: ./site
-    - name: Push and send notification
-      run: |
-          COMMIT_MESSAGE="Update pages on $(date +'%Y-%m-%d %H:%M:%S')"
-          git diff-index --quiet --cached HEAD -- && echo "No changes!" && exit 0 || echo $COMMIT_MESSAGE
-          git commit -m "${COMMIT_MESSAGE}"
-          git push https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io.git gh-pages
-          curl "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage?text=$COMMIT_MESSAGE %0ALook at ${GITHUB_ACTOR}.github.io %0ARepository%3A github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io&chat_id=${{ secrets.ADMIN_ID }}"
-      working-directory: ./site
+
+    - name: Deploy site to gh-pages branch
+      uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+      with:
+        repo-token: ${{ secrets.GH_PAT }}
+#    - name: Push and send notification
+#      run: |
+#          COMMIT_MESSAGE="Update pages on $(date +'%Y-%m-%d %H:%M:%S')"
+#          git diff-index --quiet --cached HEAD -- && echo "No changes!" && exit 0 || echo $COMMIT_MESSAGE
+#          git commit -m "${COMMIT_MESSAGE}"
+#          git push https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io.git gh-pages
+#          curl "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage?text=$COMMIT_MESSAGE %0ALook at ${GITHUB_ACTOR}.github.io %0ARepository%3A github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io&chat_id=${{ secrets.ADMIN_ID }}"
+#      working-directory: ./site
