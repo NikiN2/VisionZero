@@ -1,15 +1,10 @@
 site_name: Ноль Смертей
 site_url: https://нольсмертей.рф/
-nav:
-    - Что такое Vision Zero: index.md
-    - Типовые решения в инфраструктуре: typical_solutions.md
-    - Ответы на частые вопросы по VisionZero: faq.md
-    - Мифы и заблуждения:   myth.md
-    - Что добавить на сайт?: feedback.md
-    - Обратная связь (ТГ канал/чат): feedback.md
 
 theme:
-    name: material
+  name: material
+  features:
+    - navigation.sections
 
 repo_name: NikiN2/VisionZero
 repo_url: https://github.com/NikiN2/VisionZero
@@ -22,3 +17,35 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
+
+
+#nav:
+#    - 'Что такое Vision Zero' : 'index.md'
+#    - 'Типовые решения в инфраструктуре' : 'typical_solutions.md'
+#        - 'Тротуары'
+#        - 'Проезжая часть'
+#    - 'Ответы на частые вопросы по VisionZero' : 'faq.md'
+#    - 'Мифы и заблуждения' :   'myth.md'
+#    - 'Что добавить на сайт?' : 'feedback.md'
+#    - 'Обратная связь (ТГ канал/чат)' : 'feedback.md'
+
+nav:
+  - 'Что такое Vision Zero' : 'index.md'
+  - 'Типовые решения в инфраструктуре':
+    - 'Тротуары': 'typical_solutions.md'
+    - 'Проезжая часть' : 'typical_solutions.md'
+    - 'Велодорожки' : 'typical_solutions.md'
+    - 'Методы успокоения трафика' : 'typical_solutions.md'
+    - 'Вертикальные неровности' : 'typical_solutions.md'
+    - 'Горизонтальные неровности' : 'typical_solutions.md'
+    - 'Разделение встречных потоков' : 'typical_solutions.md'
+    - 'Общественный транспорт' : 'typical_solutions.md'
+  - 'Ответы на частые вопросы по VisionZero': 'faq.md'
+  - 'Мифы и заблуждения' :   'myth.md'
+  - 'Что добавить на сайт?' : 'feedback.md'
+  - 'Обратная связь (ТГ канал/чат)' : 'feedback.md'
+
+google_analytics:
+  - G-30J52XFP29
+  - auto
+
