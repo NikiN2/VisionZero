@@ -20,13 +20,13 @@ jobs:
           pip install mkdocs-material
 #    - name: Make output folder
 #      run: mkdir output
-    - name: Clone master branch
-      run: git clone "https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io.git" --branch master --single-branch
+#    - name: Clone master branch
+#      run: git clone "https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io.git" --branch master --single-branch
     - name: Generate static pages
       run: mkdocs build
     - name: Set git config and add changes
       run: |
-          git config --global user.email "${GITHUB_ACTOR}@https://users.noreply.github.com/"
+          git config --global user.email "nikita@3093945.ru"
           git config --global user.name "${GITHUB_ACTOR}"
           git add --all
       working-directory: ./site
@@ -36,5 +36,5 @@ jobs:
           git diff-index --quiet --cached HEAD -- && echo "No changes!" && exit 0 || echo $COMMIT_MESSAGE
           git commit -m "${COMMIT_MESSAGE}"
           git push https://${{ secrets.ACCESS_TOKEN }}@github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io.git gh-pages
-          #curl "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage?text=$COMMIT_MESSAGE %0ALook at ${GITHUB_ACTOR}.github.io %0ARepository%3A github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io&chat_id=${{ secrets.ADMIN_ID }}"
+          curl "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage?text=$COMMIT_MESSAGE %0ALook at ${GITHUB_ACTOR}.github.io %0ARepository%3A github.com/${GITHUB_ACTOR}/${GITHUB_ACTOR}.github.io&chat_id=${{ secrets.ADMIN_ID }}"
       working-directory: ./site
