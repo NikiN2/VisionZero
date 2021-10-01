@@ -8,6 +8,7 @@ theme:
 
 repo_name: NikiN2/VisionZero
 repo_url: https://github.com/NikiN2/VisionZero
+edit_url: https://github.com/NikiN2/VisionZero/blob/main/docs/index.md
 
 markdown_extensions:
   - attr_list
