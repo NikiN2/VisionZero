@@ -85,6 +85,7 @@ node_modules
 _book
 
 site
+_site
 
 # eBook build output
 *.epub
