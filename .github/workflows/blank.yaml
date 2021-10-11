@@ -29,6 +29,11 @@ jobs:
           echo "xn--e1aamffehtgn9h.xn--p1ai" > ./CNAME
       working-directory: ./_site
 
+    - name: Set yandex webmaster
+      run: |
+          echo '''<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>Verification: d9110b356dd8f81b</body></html>''' > ./yandex_d9110b356dd8f81b.html
+      working-directory: ./_site
+
     - name: Deploy site to gh-pages branch
       uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
       with:
