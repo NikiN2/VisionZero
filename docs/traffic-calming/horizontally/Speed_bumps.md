@@ -29,7 +29,7 @@
 
 
 
-[1]: https://design-project.org/ideas/2013/cheshskoe-moshchenie-kruzheva-nogami
+[1]: https://carsweek.ru/news/News_in_the_world/1212387/
 [2]: https://docs.cntd.ru/document/1200048469
 [3]: https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B5%D1%80%D0%BE%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C
 [5]: https://www.dortec.ru/statji/tot-samyy-lezhachiy-politseyskiy.html
