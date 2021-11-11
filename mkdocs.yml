@@ -18,6 +18,7 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
+  - footnotes
 
 
 
@@ -32,6 +33,7 @@ nav:
     - 'Горизонтальные неровности' : 'typical_solutions.md'
     - 'Разделение встречных потоков' : 'typical_solutions.md'
     - 'Общественный транспорт' : 'typical_solutions.md'
+    - 'Безопасный двор' : 'typical_solutions.md'
   - 'Ответы на частые вопросы по VisionZero': 'faq.md'
   - 'Мифы и заблуждения' :   'myth.md'
   - 'Что добавить на сайт?' : 'CONTRIBUTING.md'
