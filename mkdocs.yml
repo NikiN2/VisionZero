@@ -4,6 +4,7 @@ site_url: https://xn--e1aamffehtgn9h.xn--p1ai/
 
 theme:
   name: material
+  language: ru
   favicon: images/favicon.svg
   features:
     - navigation.sections
