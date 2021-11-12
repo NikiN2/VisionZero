@@ -19,7 +19,7 @@
 
 [Приподнятые пешеходные переходы](traffic-calming/horizontally/Elevated_crosswalks.md)
 ##Горизонтальные неровности
-[Шиканы](traffic-calming/vertically/Chicanes.md)
+[Шиканы](traffic-calming/vertically/chicanes/chicanes.md)
 
 [Островки безопасности](traffic-calming/vertically/safety_island.md)
 
