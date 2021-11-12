@@ -66,4 +66,4 @@
 - [vk.com/nko_poshlipoehali](http://vk.com/nko_poshlipoehali)
 - [t.me/poshlipoehali](http://t.me/poshlipoehali)
 - [instagram.com/nko_poshlipoehali](http://instagram.com/nko_poshlipoehali)
-- Для официальных запросов: [hi@poshlipoehali.ru](hi@poshlipoehali.ru)
+- Для официальных запросов: [hi@poshlipoehali.ru](mailto:hi@poshlipoehali.ru)

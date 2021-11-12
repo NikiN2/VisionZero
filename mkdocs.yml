@@ -1,8 +1,10 @@
 site_name: Ноль Смертей
 site_url: https://xn--e1aamffehtgn9h.xn--p1ai/
 
+
 theme:
   name: material
+  favicon: images/favicon.svg
   features:
     - navigation.sections
 
