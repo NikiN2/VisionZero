@@ -40,7 +40,7 @@ nav:
     - 'Безопасный двор' : 'typical_solutions.md'
   - 'Ответы на частые вопросы по VisionZero': 'faq.md'
   - 'Мифы и заблуждения' :   'myth.md'
-  - 'Что добавить на сайт?' : 'CONTRIBUTING.md'
+  - 'Что добавить на сайт?' : 'contributing.md'
   - 'Обратная связь (ТГ канал/чат)' : 'feedback.md'
 
 google_analytics:

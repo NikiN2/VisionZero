@@ -1,6 +1,7 @@
-# Et ubi coeptis expetit ultima conorque aequoris
+# Канал в телеграм
 
-## Cum nostrasque luget sinus frontemque vulgasse
 
-Lorem **markdownum** tactae ligamina, nymphae? Retices est, et Caencu dicta. Mea
+ [Популяризация концепции VISION ZERO](https://t.me/+wVTCXnjti9s4OTAy  "Популяризация концепции VISION ZERO")
+
+
 
