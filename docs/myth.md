@@ -1,6 +1,10 @@
-# Et ubi coeptis expetit ultima conorque aequoris
+# Мифы связанные с Вижин Зеро
 
-## Cum nostrasque luget sinus frontemque vulgasse
+- Если снизить скорость на дорогах, будет экономический коллапс.
 
-Lorem **markdownum** tactae ligamina, nymphae? Retices est, et Caencu dicta. Mea
+- Америка не признает vision zero
+
+
+
+
 
