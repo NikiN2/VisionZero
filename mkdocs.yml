@@ -27,7 +27,8 @@ markdown_extensions:
 
 
 nav:
-  - 'Что такое Vision Zero' : 'index.md'
+  - 'Теория':
+    - 'Что такое Vision Zero' : 'index.md'
     - 'Лекции и видео' : 'video-lesson.md'
   - 'Типовые решения в инфраструктуре':
     - 'Тротуары': 'typical_solutions.md'
