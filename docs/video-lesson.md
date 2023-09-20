@@ -5,7 +5,7 @@
 ## Хорошее видео (но очень длинное) от Стаса Асафьева 
 
 
-[ПОЧЕМУ происходят ДТП и как от них ИЗБАВИТЬСЯ?](https://youtu.be/mQiS21hIC0w?si=LFBw-R--19Vtl-V7)
+[ПОЧЕМУ происходят ДТП и как от них ИЗБАВИТЬСЯ?](https://youtu.be/mQiS21hIC0w)
 
 ## 5 основных принципов Vision Zero от  [letsbikeit.ru](https://letsbikeit.ru/)
 
